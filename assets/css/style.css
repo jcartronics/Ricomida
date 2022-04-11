@@ -1,0 +1,162 @@
+body {
+    font-family: "Cabin", sans-serif;
+    color: #373A3C;
+    margin: 0;
+    padding: 0;
+}
+
+.margen_inicial {
+	margin-left: 8.5%;
+}
+
+.navbar {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.div_pizza{
+	margin: 0;
+	padding: 0;
+}
+.nav_titulo {
+    font-family: "Lobster";
+    color: white;
+    font-size: 30pt;
+}
+
+.textos_main {
+    text-align: left;
+}
+.titulo_pizza {
+    font-weight: 700;
+	font-size: 2.5rem;
+}
+
+#tiempo-porciones h5{
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+hr {
+    border-top: 3px solid black !important;
+}
+
+.boton-correo {
+    border: 1px solid #DDDDDD;
+	color: #373A3C; 
+}
+
+
+.boton-favoritos {
+    border: 1px solid #DDDDDD;
+	color: #373A3C;  
+}
+
+#recetas ul{
+	list-style: none;
+	padding: 0;
+	font-size: 1.25rem;
+}
+
+#recetas p {
+	font-size: 1.25rem;
+}
+
+#recetas ol{
+	padding: 0;
+}
+
+#recetas ol li {
+	margin-bottom: 15px;
+  	padding: 0;
+	font-size: 1.25rem;
+}
+
+#recetas h4{
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px black;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+#tarjeta h2 {
+	border-top: solid 1px black;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+#tarjeta .card-title {
+	font-size: 1.4rem;
+}
+
+#tarjeta .card-text {
+	font-size: 16px;
+}
+
+#suscribe-section h2 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#suscribe-section h3 {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#suscribe-section button {
+	width: 20%;
+}
+
+#suscribe-section h3 span,
+footer h2 {
+	font-family: 'Lobster';
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0;
+	font-size: 37px;
+}
+
+footer a:hover {
+	color: initial;
+}
+
+@media (min-width: 1200px) {
+	.textos_main {
+		padding-right: 15%;
+		padding-top: 2%;
+	}
+
+	#tarjeta .card-title {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 768px) {
+	.textos_main {
+		margin-top: 1rem;
+		text-align: center;
+	}
+	#suscribe-section button {
+		width: 80%;
+	}
+	.titulo_pizza {
+		font-size: 25px;
+	}
+	#tiempo-porciones h5{
+		font-size: 16px;
+	}
+
+	#tarjeta h2 {
+		padding: 1rem;
+		font-size: 25px;
+	}
+} 
